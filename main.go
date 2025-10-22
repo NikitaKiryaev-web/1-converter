@@ -1,9 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-	const usdToEuro = 0.86
-	const usdToRub = 81
-
-	const euroToRub = usdToRub / usdToEuro
-
+	fmt.Print("Hello world")
 }
